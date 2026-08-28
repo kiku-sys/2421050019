@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title> BÀi 3</title> 
+    </head>
+    
+    <body>
+        <MARQEE><img src="/ảnh/hihi.jpg"></MARQEE>
+        <!-- ol Danh sách có thứ tự -->
+        <ol>
+            <li>C#</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+        </ol>
+        <!-- ul Danh sách ko có thứ tự -->
+         <ul>
+            <li>C#</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <h1>Form đăng kí</h1>
+        <form>
+            <div>
+                <b>Họ và tên</b><br>
+                <!-- Nếu input ko co type thì sẽ mặc định là text -->
+                <!-- Thuộc tính readonly sử dụng khi không muốn người dùng nhập thông tin vào input -->
+                <input type="text" placeholder="Họ và tên">
+            </div>
+            <div>
+                <b>Năm sinh</b><br>
+                <input type="number" placeholder="Năm sinh">
+            </div>
+            <div>
+                <b>Mật khẩu</b><br>
+                <input type="password" placeholder="Mật khẩu">
+            </div>
+            <div>
+                <b>Giới thiệu về bản thân</b><br>
+                <textarea>Nhập thông tin...</textarea>
+            </div>
+            <div>
+                <b>Email</b><br>
+                <input type="email">
+            </div>
+            <div>
+                <!-- Số đầu tiên : 0
+                 Số thứ 2: 3,9,8
+                 8 số còn lại 0-9 -->
+                <b>Số điện thoại</b><br>
+                <input type="tel" pattern="([0]{1})([3,9,8]{1})([0-9]{8})">
+            </div>
+            <div>
+                <b>Giới tính</b><br>
+                <input type="radio" name="gioitinh" value="nam"> Nam<br>
+                <input type="radio" name="gioitinh" value="nu"> Nữ
+            </div>
+            <div>
+                <b>Sở thích</b><br>
+                Chơi game: <input type="checkbox" name="sothich" value="choigam"><br>
+                Nghe nhạc: <input type="checkbox" name="sothich" value="nghenhac"><br>
+                Thể thao: <input type="checkbox" name="sothich" value="thethao"><br>
+            </div>
+            <div>
+                <b>Trình duyệt web ưa thích</b><br>
+                <select name="browsers">
+                    <option value="Internet Explorer">Internet Explorer</option>
+                    <option value="Firefox">Firefoxr</option>
+                    <option value="Chrome">Chrome</option>
+                    <option value="Opera">Opera</option>
+                    <option value="Safari">Safari</option>
+                    <option value="Cốc cốc">Cốc cốc</option>
+                </select>
+            </div>
+            0 <input type="range" id="a" value="50">100
+
+            <div>
+                <input type="submit"><br>
+                <button>Xác nhận</button><br>
+                <input type="reset">
+            </div>
+         </form>   
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/yXSqiI2HoiY?si=LNIbj0I3M-6DKScL" 
+                allowfullscreen>
+            </iframe>
+        
+        <video controls width="560" height="315">
+            <source src="/ảnh/video.mp4" type="video/mp4">
+        </video>
+        <audio controls>
+            <source src="" type="/">
+        </audio>
+    </body>
+</html>
