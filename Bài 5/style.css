@@ -1,0 +1,21 @@
+#tieude-1{
+    color:blueviolet;
+    background-color: red;
+}
+.tieude-2{
+    color:aliceblue;
+    background-color:darkorchid;
+}
+div.web4{
+    color:black;
+    background-color:aquamarine;
+}
+/* div{
+    padding: 50px ; /*khoảng đệm giữa*/
+    margin: 20px ; /*lề */
+    width:300px;/*chiều rộng nd*/
+    border: 15px solid green;/*viền*/
+    color:antiquewhite;
+    background-color:chocolate;
+   display:inline;
+} */

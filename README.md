@@ -9,3 +9,4 @@ bước 2 : git add
 bước 3 : git commit -m "ND"
 bước 4 : git pull
 bước 5 : git push
+

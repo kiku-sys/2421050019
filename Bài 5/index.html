@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style-tt</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .khoi1{
+            background-color: aquamarine;
+            display:flex;
+            /* justify-content:đi theo chiều ngang */
+            /* flex-end:xếp phải
+               flex-start:xếp trái
+               center: xếp giữa
+               space-between: A-A-A
+               space-around:-A-A-A- */
+                
+            /* align-items: đi theo chiều dọc */
+            /* flex-start: xếp trên
+               flex-end:xếp dưới
+               center: xếp giữa
+               baseline
+               stretch
+             */
+            /* flex-direction: xđ hướng; */
+        }
+        .khoi2{
+            background-color:chartreuse;
+            /* margin truyền 1 giá trị thì sẽ cách xung quanh = giá trị đó */
+            /* 2 giá trị: giá trị đầu(trên, dưới), giá trị 2(trái, phải) */
+            /* 4 giá trị: trên- phải- dưới- trái */
+            margin:10px 50px 100px 200px;
+        }
+        .khoi3{
+            background-color: rgba(232, 127, 255, 0.786);
+            padding: 10px 50px 100px 200px;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 style="color:blue">Web 1</h1>
+    <!-- nếu là id sd dấu # + tên id -->
+    <!-- vd: #tieude-1 -->
+    <h2 id="tieude-1">Web 2</h2>
+    <!-- nếu là class sd dấu . + tên class -->
+    <h3 class="tieude-2">Web 3</h3>
+    <!-- Những thẻ div có định dạng class thì ms đc áp dụng -->
+    <div class="web4">Web 4</div>
+    <div>Web 4</div>
+    <p class="khoi1">Khối 1</p>
+    <p class="khoi2">Khối 2</p>
+    <p class="khoi3">Khối 3</p>
+
+</body>
+</html>
