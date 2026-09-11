@@ -4,90 +4,158 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Đào tạo HUMG</title>
-    <style>
-        body{
-            
-
-        }
-        .menu{
-            background-color:#2fa4e7;
-           
-        }
-        .danh-sach-muc{
-            list-style:none;
-            display:flex;
-            font-weight:bold;
-            margin:0;
-        }
-        .muc{
-            padding:10px;
-        }
-        a{
-            color:white;
-            /* để bỏ gạch chân thẻ a */
-            text-decoration: none;
-        }
-        main{
-            display:flex;
-        }
-        .khoi-trai{
-            width:20%;
-            height:300px;
-        }
-        .khoi-phai{
-            background-color:green;
-            width:80%;
-            height:300px;
-        }
-        
-        .dang-nhap{
-            width: 100%;
-            margin: 0;
-           
-        }
-        .khoi{
-            margin: 1px; 
-            width: 95%;
-            
-        }
-        form{
-            width:100%;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Danh mục -->
     <nav class="menu"><!--Thanh menu -->
         <ul class="danh-sach-muc">
-            <li class="muc"><a href="#">Thực tập, Đồ án</a></li>
-            <li class="muc"><a href="#">Thủ tục Một Cửa</a></li>
-            <li class="muc"><a href="#">Một Cửa online</a></li>
-            <li class="muc"><a href="#">E-mail HUMG</a></li>
+            <li class="muc"><a class="lien-ket-muc" href="#">Thực tập, Đồ án</a></li>
+            <li class="muc"><a class="lien-ket-muc" href="#">Thủ tục Một Cửa</a></li>
+            <li class="muc"><a class="lien-ket-muc" href="#">Một Cửa online</a></li>
+            <li class="muc"><a class="lien-ket-muc" href="#">E-mail HUMG</a></li>
         </ul>
     </nav>
     <main>
         <div class="khoi-trai">
             <div class="dang-nhap">
                 <form action="">
-                    <div >
-                        <p class="khoi">Tài khoản</p>
-                        <input type="text" style="width:90%;">
-                
-                        <p class="khoi">Mật khẩu</p>
-                        <input type="passwork" style="width:90%;">
+                    <div class="thong-tin">
+                        <p >Tài khoản</p>
+                        <input type="text">
                     </div>
-                    <div>
-                        <button class="khoi">Đăng nhập</button>
+                    <div class="thong-tin">
+                        <p>Mật khẩu</p>
+                        <input type="passwork">
+                    </div> 
+                    <div class="k">
+                        <a class="lk" href="#" ><i>Quên mật khẩu?</i></a>
+                    </div>
+                    <div class="chuc-nang-dn">
+                        <button style="background-color:#2fa4e7">Đăng nhập</button>
                    
-                        <button class="khoi">Mật khẩu</button>
+                        <button style="background-color:#1e5fe0">Đăng nhập với Microsoft</button>
                     </div>
                 </form>   
             </div>
             <div>LOGO</div>
         </div>
         <div class="khoi-phai">
-            Phải
+
+            <div class="tin">
+                <div class="tin-tren">
+                    <h3 class="tieu-de">Tin tức</h3>
+                    <p><a  class="xem-tiep" href="#">Xem tiếp > </a></p>
+                </div>
+                <div class="danh-sach-tin">
+                    <div class="bai-viet">
+                        <div class="bai-viet-khoi-anh">
+                            <img src="../ảnh/image.png" alt="">
+                        </div>
+                        <div class="bai-viet-thoi-gian">
+                            <p>05/05/2026</p>
+                        </div>
+                        <div>
+                            <p>Về việc đăng kí khối lượng học tập học kì phụ năm học 2025-2026 </p>
+                        </div>
+                    </div>
+                    <div class="bai-viet">
+                        <div class="bai-viet-khoi-anh">
+                            <img src="../ảnh/image.png" alt="">
+                        </div>
+                        <div class="bai-viet-thoi-gian">
+                            <p>15/04/2026</p>
+                        </div>
+                        <div>
+                            <p>Về việc nghỉ học </p>
+                        </div>
+                    </div>
+                    <div class="bai-viet">
+                        <div class="bai-viet-khoi-anh">
+                            <img src="../ảnh/image.png" alt="">
+                        </div>
+                        <div class="bai-viet-thoi-gian">
+                            <p>24/09/2024</p>
+                        </div>
+                        <div>
+                            <p>Trường Đại học Mỏ - Địa chất đạt chứng nhận kiểm định chất lượng cơ sở giáo dục (chu kỳ 2)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tin">
+                <div class="tin-tren">
+                    <h3 class="tieu-de">Thông báo</h3>
+                    <p><a  class="xem-tiep" href="#">Xem tiếp > </a></p>
+                </div>
+                <div class="danh-sach-tb">
+                    <div class="bv-anh">
+                        <div class="bai-viet">
+                            <div class="bai-viet-khoi-anh">
+                                <img src="../ảnh/tb.png" alt="">
+                            </div>
+                                <div class="bai-viet-thoi-gian">
+                                    <p>27/08/2026</p>
+                                </div>
+                            <div>
+                                <p>Về việc ghép lớp và mở lớp học kì 1 năm học 2026-2027 </p>
+                            </div>
+                        </div>
+                        <div class="bai-viet">
+                            <div class="bai-viet-khoi-anh">
+                                <img src="../ảnh/tb.png" alt="">
+                            </div>
+                                <div class="bai-viet-thoi-gian">
+                                    <p>24/08/2026</p>
+                                </div>
+                            <div>
+                                <p>Thông báo về việc nghỉ học nhân dịp Quốc khánh 2/9 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bv-chu">
+                        <div class="bv">
+                            <div>
+                                <p>Thông báo về việc thực tập tốt nghiệp/doanh nghiệp và Đồ án/khóa luận tốt nghiệp của sinh viên đợt 1A năm học 2026-2027</p>
+                            </div>
+                            <div>
+                                <p>11/08/2026</p>
+                            </div>
+                        </div>
+                        <div class="bv">
+                            <div>
+                                <p>Về việc đăng ký khối lượng học tập học kỳ 1 năm học 2026-2027</p>
+                            </div>
+                            <div>
+                                <p>20/07/2026</p>
+                            </div>
+                        </div>
+                        <div class="bv">
+                            <div>
+                                <p>Thông báo về việc kiểm tra điều kiện xét tốt nghiệp đợt 3 năm học 2025-2026 (Tháng 07/2026)</p>
+                            </div>
+                            <div>
+                                <p>16/07/2026</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tin">
+                <div class="tin-tren">
+                    <h3 class="tieu-de">Hướng dẫn</h3>
+                    <p><a  class="xem-tiep" href="#">Xem tiếp > </a></p>
+                </div>
+            </div>
+
+            <div class="tin">
+                <div class="tin-tren">
+                    <h3 class="tieu-de">Cài đặt app</h3>
+                    <p><a  class="xem-tiep" href="#">Xem tiếp > </a></p>
+                </div>
+            </div>
         </div>
     </main>
 </body>
