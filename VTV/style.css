@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    color:aliceblue;
+    margin: 0;
+}
+header{
+    height:5vh;
+}
+.danh-sach{
+    list-style: none;
+    display: flex;
+    gap:20px;
+}
+.logo{
+    
+    padding: 15px 40px;
+    background-color: orange;
+}
+.ten-danh-sach{
+    padding: 15px 45px;
+    background-color: blue;
+}
+.tin-chinh{
+    height: 45vh;
+    margin: 20px 300px;
+    background-color: yellow;
+}
+.danh-sach-kenh{
+    gap:10px;
+    display: flex;
+    padding: 5px;
+}
+.kenh{
+    width: 10%;
+    padding: 20px 10px;
+    background-color: rgb(13, 224, 90);
+}

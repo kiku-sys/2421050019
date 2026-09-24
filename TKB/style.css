@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    
+}
+nav{
+    height: 50px;
+    background-color: rgb(31, 167, 240);
+}
+main{
+    display: flex;
+}
+.khoi-trai{
+    width: 15%;
+    height: 300px;
+    background-color: aquamarine;
+    border-right: 2px solid #2fa4f7;
+}
+.khoi-phai{
+    width: 85%;
+}
+.the{
+    margin: 10px;
+    border: 2px solid #2fa4f7;
+    border-radius: 10px;
+    padding: 10px
+}
+.ten-the{
+    border-bottom: 2px solid #2fa4f7;
+    padding-bottom: 10px;
+}
+.dong-1{
+    display: flex;
+    gap: 5px;
+    margin:  15px 0px 8px 0px;
+    width: 60%;
+}
+.the-1{
+    border-radius: 5px;
+    padding: 5px;
+}
+.the-3{
+    padding: 5px 90px 5px 0;
+    border-radius: 5px;
+}
+.dong-2{
+    display: flex;
+    margin-bottom: 8px;
+    justify-content: space-between;
+}
+.the-2:hover{
+    background-color: #2fa4f7;
+    color: white;
+}
+.the-2{
+    padding: 5px 17px;
+    border-radius: 5px;
+    border: 2px solid #2fa4f7;
+    color: #2fa4f7 ;
+    background-color: white;
+}
+.khoi-tim{
+    width: 30px;
+    height: 20px;
+    margin-right: 4px;
+    border-radius: 5px;
+    background-color: #a04ae7;
+}
+.khoi-vang{
+    width: 30px;
+    height: 20px;
+    margin-right: 4px;
+    border-radius: 5px;
+    background-color: #ffc107;
+}
+table{
+    border-collapse: collapse;
+}
+.tkb{
+    border: 2px solid #2fa4f7;
+    border-radius: 10px;
+}
+
+
+td{
+    border: 1px solid #dee2e6;
+}
+.mon{
+    border:2px solid #2fa4f7;
+    width: 13%;
+    background-color: #cfe2ff;
+    padding: 0 5px;
+}
+p{
+    border-bottom: 1px solid #2fa4f7;
+    margin-top: 0;
+}
+.tiet{
+    width: 4.5%;
+    background-color: rgb(31, 167, 240);
+    color: white;
+    border-spacing: 0px;
+    padding: 15px 1px;
+}
