@@ -136,18 +136,34 @@ join phim_the_loai ptl
 on p.id = ptl.phim_id
 join the_loai tl
 on ptl.the_loai_id = tl.id 
-where p.id = 1
+where p.id = 1;
+SELECT * FROM phim p 
+join phim_the_loai ptl
+on p.id = ptl.phim_id
+join the_loai tl
+on ptl.the_loai_id = tl.id 
+where p.id = 2;
 
 SELECT * FROM phim p 
 join phim_dien_vien pdv
 on p.id = pdv.phim_id
 join dien_vien dv
 on pdv.dien_vien_id = dv.id 
-where p.id = 1
+where p.id = 1;
+SELECT * FROM phim p 
+join phim_dien_vien pdv
+on p.id = pdv.phim_id
+join dien_vien dv
+on pdv.dien_vien_id = dv.id 
+where p.id = 2;
 
 SELECT * FROM phim p 
 join dao_dien dd
 on p.dao_dien_id = dd.id
 where p.id = 1;
+SELECT * FROM phim p 
+join dao_dien dd
+on p.dao_dien_id = dd.id
+where p.id = 2;
 
 
